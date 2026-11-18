@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<!--
+    Only the launch screen lives here. Everything else in the app's Info.plist is generated
+    from the build settings, which can't set a launch image.
+-->
+<dict>
+    <key>UILaunchScreen</key>
+    <dict>
+        <!-- The Nanogram logo in the middle of a black screen, the same black as the feed. -->
+        <key>UIImageName</key>
+        <string>LaunchLogo</string>
+        <key>UIColorName</key>
+        <string>LaunchBackground</string>
+    </dict>
+</dict>
+</plist>
